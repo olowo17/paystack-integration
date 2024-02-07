@@ -1,4 +1,4 @@
-package com.michael.thirdpartyapi;
+package com.michael.thirdpartyapi.exception;
 
 public class UserNotFoundException  extends RuntimeException{
     public UserNotFoundException(String message) {

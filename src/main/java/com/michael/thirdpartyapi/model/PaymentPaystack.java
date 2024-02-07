@@ -50,7 +50,7 @@ public class PaymentPaystack {
     @Column(name = "ip_address")
     private String ipAddress;
 
-    @Column(name = "pricing_plan_type", nullable = true)
+    @Column(name = "pricing_plan_type", nullable = false)
     @Enumerated(EnumType.STRING)
     private PricingPlanType planType = PricingPlanType.BASIC;
 

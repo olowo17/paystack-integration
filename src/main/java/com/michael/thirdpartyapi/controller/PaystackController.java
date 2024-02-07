@@ -32,7 +32,6 @@ public class PaystackController {
 
     @GetMapping("/verify-payment/{reference}/plan/{id}")
     public PaymentVerificationResponse paymentVerification(@PathVariable(value = "reference") String reference,
-//                                                           @PathVariable (value = "plan") String plan,
                                                       @PathVariable(value = "id") Long id)
             throws Exception {
 

@@ -1,11 +1,6 @@
 package com.michael.thirdpartyapi.model;
 
 import lombok.Getter;
-
-
-
-
-
 @Getter
 public enum PricingPlanType {
 
