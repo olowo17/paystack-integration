@@ -1,0 +1,24 @@
+#DataSource Configuration
+spring:
+  datasource:
+    driver-class-name:  com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/paystack
+    username: ${db_username}
+    password: ${db_password}
+
+  # JPA Configuration
+  jpa:
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql : true
+
+server:
+  port: 9090
+
+api_secret: ${api_secret}
+
+#  sk_test_415391fbb3bd43810bccdb361084085ea36a4fec
